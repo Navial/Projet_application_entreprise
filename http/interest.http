@@ -1,0 +1,15 @@
+### Mark Interest
+POST {{baseUrl}}/interests/
+Authorization: {{token}}
+Content-Type: application/json
+
+{
+  "callWanted": true,
+  "offer": {
+    "id": 2
+  },
+  "member": {
+    "id": 2
+  },
+  "date": "2022-05-12"
+}
